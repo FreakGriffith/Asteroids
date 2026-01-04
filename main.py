@@ -53,7 +53,7 @@ def main():
                 if j.collides_with(i):
                     log_event("asteroid_shot")
                     j.kill()
-                    i.kill()
+                    i.split()
 
 
         updatable.update(dt)
